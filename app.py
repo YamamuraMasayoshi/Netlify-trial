@@ -2,10 +2,10 @@ import os
 import git
 
 #Pushしたいリポジトリに移動
-os.chdir(r'C:\Users\carot\OneDrive\デスクトップ\Netlify-trial')
+os.chdir(r'C:\Users\carot\Desktop\Netlify-trial')
 repo = git.Repo()
 
-#最新を取り込むため一旦PullC:\Users\carot\OneDrive\デスクトップ\Netlify-trial
+#最新を取り込むため一旦PullC:\Users\carot\Desktop\Netlify-trial
 o = repo.remotes.origin
 o.pull()
 
